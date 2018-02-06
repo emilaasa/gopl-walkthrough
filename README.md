@@ -9,4 +9,16 @@ Let's begin!
 # 1 - Tutorial
 _This chapter is a tour of the basic components of Go._
 
+First we write a hello-world program and then some echo programs in different ways.
+
+TODO come back and do the benchmark after reading Section 11.
+
+
+## bufio package 
+
+https://golang.org/pkg/bufio/
+
+Aims to make textual input and output efficient and convenient
+*Scanner* - _Scanner provides a convenient interface for reading data such as a file of newline-delimited lines of text._
+
 
