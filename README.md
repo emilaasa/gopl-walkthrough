@@ -22,3 +22,12 @@ Aims to make textual input and output efficient and convenient
 *Scanner* - _Scanner provides a convenient interface for reading data such as a file of newline-delimited lines of text._
 
 
+# 1 - Composite types
+For efficiency, larger struct types are usually passed to or returned from functions indirectly using a pointer, and this is required if the function must modify its argument, since in a call-by-value language like Go, the called function receives only a copy of an argument, not a reference to the original argument.
+
+
+```go
+pp := &Point{1, 2}
+```
+
+
